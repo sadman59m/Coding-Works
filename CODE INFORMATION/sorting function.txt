@@ -1,0 +1,14 @@
+ascending sorting:
+sort array;
+sort(arr,arr+n);
+
+descending sorting:
+int a[5];
+sort(a,a+5,greater<int>());
+
+sorting a vector pair with second elements:
+
+bool comparison(const pair<int,int> &a,const pair<int,int> &b){
+    return a.second<b.second;
+}
+sort(v.begin(),v.end(), comparison)

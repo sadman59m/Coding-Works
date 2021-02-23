@@ -1,0 +1,3 @@
+
+
+x & 1 is equivalent to x % 2

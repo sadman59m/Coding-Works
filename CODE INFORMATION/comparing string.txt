@@ -1,0 +1,7 @@
+string s,s1;
+    cin>>s>>s1;
+
+    cout<< s.compare(s1);
+
+if ans = 0,then both are same string;
+else not same.

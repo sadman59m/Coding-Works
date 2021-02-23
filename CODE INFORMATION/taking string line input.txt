@@ -1,0 +1,12 @@
+int main()
+{
+    int t;
+    cin >> t;
+    while(t--) {
+        string s;
+        getline(cin ,s);
+        while(s.length()==0) getline(cin, s); //keep reading a new line while there is a blank line
+        cout << s << endl;
+    }
+	return 0;
+}

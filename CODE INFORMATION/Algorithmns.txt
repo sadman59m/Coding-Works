@@ -1,0 +1,2 @@
+NAIVE's algorithm for maximum sum of a sub array
+Divide and Conquer : Finding max-subarray or max sum of sub-array

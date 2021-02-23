@@ -1,0 +1,16 @@
+if the sum of digits is dividable by 3,then the number is also dividable by 3.
+"chinese remainder theorem", a number is divisible by 60 if and only if it is divisible by 3 and 20.
+A number is divisible by 20 if it ends in 20, 40, 60, 80 or 00. Hence, it is necessary and sufficient if s contains a 0 and then at least one additional even digit.
+
+
+T-primes are the numbers which has only three divisors. And they are the square of prime numbers.
+
+######### formula ########
+if p^n, then sum of 1+p^1+p^2+.....+p^n = (p^(n+1)-1)/p-1
+for ex: 5^3 = 1+5+25+125 = 156 = (5^4-1)/4
+
+####fermat's little theorem for prime numbers####
+a^(n-1) = 1 mod n
+###miller rabin praimility test from fermat's little theorem
+n-1 = d*2^s where d is odd number
+a^(2^s-1*d) = +- 1 mod n

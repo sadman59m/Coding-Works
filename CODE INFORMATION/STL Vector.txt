@@ -1,0 +1,18 @@
+taking input;
+
+vctor<int>v;
+v.push_back(value);
+
+output:
+cout<<v[index];
+
+ascending sort:
+sort(v.begin(),v.end());
+
+descending order:
+sort(v.rbegin(),v.rend());
+
+for(auto i=v.begin();i != v.end();i++)	//traverse the whole vector
+{
+	do whatever;
+}

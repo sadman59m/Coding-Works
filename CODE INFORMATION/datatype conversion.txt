@@ -1,0 +1,25 @@
+string s;
+    cin>>s;
+    int k = atoi(s.c_str());
+
+    cout<<k;
+for C++, v-14 and avobe:
+
+int to string:
+int i;
+string s = to_string(i);
+
+string to int:
+string s;
+    cin>>s;
+
+    int i = stoi(s);
+    cout<<s<<i;
+
+int to char:
+int i=6;
+char c = '0'+i; //'0' + 6 = '6'
+
+string to int:
+string/char s;
+int n = s[i]-'0';

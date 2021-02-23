@@ -1,0 +1,5 @@
+for all regular polygons:
+sides = n;
+angles = a;
+each interior angle = (n-2)*180/n;
+toltat sides = 360/(180-a);

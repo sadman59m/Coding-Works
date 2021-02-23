@@ -1,0 +1,2 @@
+for dice:
+the sum of two opposite side of dice dots is always 7.the sum of total dice dots is 21.
