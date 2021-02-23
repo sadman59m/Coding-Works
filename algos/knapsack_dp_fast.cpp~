@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+bitset<100000>can;
+
+int main() {
+    int n, w;
+    cin >> n >> w;
+    can[0] = 1;
+    for(int idx=0; idx<n; ++idx) {
+        int x;
+        cin >> x;
+        can |= can>>x;
+    }
+    puts(can[w] ? "yes" : "no" );
+    return 0;
+}
