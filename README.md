@@ -1,2 +1,2 @@
 # Coding-Works
-Collection of my codes and information I have collected about competetive progamming
+Collection of my codes and algorithms and information that I have collected about competetive progamming in C++
